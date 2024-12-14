@@ -193,6 +193,28 @@
             alert(`Total a pagar: $${total.toLocaleString()} CLP. Procediendo al pago...`);
             // Aquí puedes integrar una pasarela como WebPay o Mercado Pago
         }
+
+            <script>
+      
+
+        let visitas = parseInt(localStorage.getItem('
+
+        let visitas = parseInt(localStorage.getItem('visitas') || '0
+
+        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
+        localStorage.setItem('visi
+
+        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
+        localStorage.setItem('visitas', visitas);
+        document.getElementById('contadorVi
+
+        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
+        localStorage.setItem('visitas', visitas);
+        document.getElementById('con
+
+        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
+        localStorage.setItem('visitas', visitas);
+        document.getElementById('contadorVisitas').textContent = visitas;
     </script>
 </body>
 </html>
