@@ -159,8 +159,7 @@
         <button onclick="checkout()">Finalizar Compra</button>
     </div>
     <footer>
-        <p>© 2024 Tienda Médica - Todos los derechos reservados</p>
-        <p>Visitas: <span id="contadorVisitas">0</span></p>
+        <p>Movimiento y Equilibrio - Todos los derechos reservados</p>
     </footer>
 
     <script>
@@ -193,25 +192,7 @@
             alert(`Total a pagar: $${total.toLocaleString()} CLP. Procediendo al pago...`);
             // Aquí puedes integrar una pasarela como WebPay o Mercado Pago
         }
-   
-        let visitas = parseInt(localStorage.getItem('
 
-        let visitas = parseInt(localStorage.getItem('visitas') || '0
-
-        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
-        localStorage.setItem('visi
-
-        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
-        localStorage.setItem('visitas', visitas);
-        document.getElementById('contadorVi
-
-        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
-        localStorage.setItem('visitas', visitas);
-        document.getElementById('con
-
-        let visitas = parseInt(localStorage.getItem('visitas') || '0') + 1;
-        localStorage.setItem('visitas', visitas);
-        document.getElementById('contadorVisitas').textContent = visitas;
     </script>
 </body>
 </html>
